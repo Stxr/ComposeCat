@@ -1,9 +1,24 @@
+/*
+ * Copyright 2021 The Android Open Source Project
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *     https://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
 package com.example.androiddevchallenge.model
 
 import com.google.gson.annotations.SerializedName
 import java.io.Serializable
 
-data class CatElement (
+data class CatElement(
     val breeds: List<Breed>,
     val id: String,
     val url: String,
@@ -11,7 +26,7 @@ data class CatElement (
     val height: Long
 ) : Serializable
 
-data class Breed (
+data class Breed(
     val weight: Weight,
     val id: String,
     val name: String,
@@ -100,9 +115,9 @@ data class Breed (
     val catFriendly: Long? = null,
 
     val bidability: Long? = null
-):Serializable
+) : Serializable
 
-data class Weight (
+data class Weight(
     val imperial: String,
     val metric: String
-):Serializable
+) : Serializable
