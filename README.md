@@ -1,6 +1,6 @@
 # ComposeCat
 
-![Workflow result](https://github.com/Stxr/ComposePuppy/workflows/Check/badge.svg)
+![Workflow result](https://github.com/Stxr/ComposeCat/workflows/Check/badge.svg)
 
 
 ## :scroll: Description
